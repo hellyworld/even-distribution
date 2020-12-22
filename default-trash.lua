@@ -1,19 +1,27 @@
 return {
 	-- VANILLA GROUPS
+	["raw-resource"]              = 0,
+	["resource"]                  = 0,
+	["plates"]                    = 0,
+	["logistics"]                 = 0,
+	["inserter"]                  = 0,
 	["intermediate-products"]     = 0,
-	["terrain"]                   = 600,
-	
+	["terrain"]                   = 400,
+
 	--VANILLA ITEMS
-	["iron-plate"]                = "ignore",
-	["copper-plate"]              = "ignore",
-	["steel-plate"]               = "ignore",
-	["electronic-circuit"]        = "ignore",
-	["advanced-circuit"]          = "ignore",
-	["processing-unit"]           = "ignore",
-	["uranium-235"]               = "ignore",
-	["wood"]                      = "ignore",
+	["iron-plate"]                = 300,
+	["copper-plate"]              = 300,
+	["steel-plate"]               = 100,
+	["electronic-circuit"]        = 200,
+	["advanced-circuit"]          = 200,
+	["processing-unit"]           = 200,
+	["uranium-235"]               = 0,
+	["wood"]                      = 0,
 	["rocket-fuel"]               = 40,
 	["nuclear-fuel"]              = "ignore",
+
+	-- SPACE EXPLORATION GROUPS
+    ["se-ores"]                    = 0,
 	
 	-- BOBS MODS GROUPS
 	["bob-ores"]                  = 0,
@@ -69,7 +77,7 @@ return {
 	["wood-bricks"]               = 0,
 	["wood-pellets"]              = 0,
 	["coal-crushed"]              = 0,
-	
+
 	-- SCIENCE COST TWEAKER MOD GROUPS
 	["sct-science"]               = 0,
 	

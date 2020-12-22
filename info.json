@@ -1,11 +1,11 @@
 {
-  "name": "even-distribution",
+  "name": "even-distribution-plus",
   "version": "0.3.18",
-  "factorio_version": "0.18",
-  "title": "Even Distribution",
+  "factorio_version": "1.0",
+  "title": "Even Distribution Plus",
   "author": "321freddy",
   "contact": "https://forums.factorio.com/viewtopic.php?f=92&t=46278",
   "homepage": "",
-  "description": "Modifies CTRL + Click Drag to evenly distribute the items over multiple buildings. \r\n\r\nAlso adds Inventory Cleanup hotkey (SHIFT+C) which evenly distributes excess trash items from inventory into nearby machines.",
-  "dependencies": ["base >= 0.18.22"]
+  "description": "Modifies CTRL + Click Drag to evenly distribute the items over multiple buildings. \r\n\r\nAlso adds Inventory Cleanup hotkey (SHIFT+C) which evenly distributes excess trash items from inventory into nearby machines.\n\nBy hellyworld",
+  "dependencies": ["base >= 1.0"]
 }
